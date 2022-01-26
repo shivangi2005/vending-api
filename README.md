@@ -1,7 +1,9 @@
+
 ### How to Run application
+- please make sure JRE8 or higher is installed in your system
 - Run Command prompt and go to project folder vending-api
 - execute run (type run and enter)
-- Application will be initialised and ask to enter number of coins for each coin value
+- Application will be initialised and ask to enter number of coins for each coin-value to register initial change. 
 - After machine is initialised, it asks to select the product
 - Based on user selection, user will be asked to enter coins one by one until total price is matched
 - Change is calculated and return coins will be displayed
