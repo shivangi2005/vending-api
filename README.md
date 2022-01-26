@@ -1,11 +1,37 @@
-## How to Run application
+### How to Run application
+- Run Command prompt and go to project folder vending-api
+- execute run (type run and enter)
+- Application will be initialised and ask to enter number of coins for each coin value
+- After machine is initialised, it asks to select the product
+- Based on user selection, user will be asked to enter coins one by one until total price is matched
+- Change is calculated and return coins will be displayed
+
+### Configuration
+- products and prices can be configured in application.yml file under properties/application.yml
 
 
+###Folder Structure
+- main
+  - config
+  - exception
+  - model
+  - service
+-test
+  - service
 
-##Folder Structure
+###Future Work
+- Service test line coverage is 90% which can be further increased.
+- Framework(s) like MeanBean can be added to cover tests for bean classes
+- jacoco plug-in has been added for the test report, further rules can be added to have minimum coverage
+- REST cotrollers can be added to expose as REST API
 
 
 ##Design
+- I have used Spring boot framework for this requirement which implicitly use design patterns like Dependency injection, Singleton, Factory Method, Proxy and Template patterns.
+- I have used services to hold the business logic which can be injected dynamically to the framework and can be easily customised for the different requirement
+- IO service  has been created for accepting the input and display result which can be replaced by any other I/O depending upon user interface
+- APIs can be easily exposed to web / microservices based architecture as the framework can be used to configure controllers
+
 
 ###Vending machine Life cycle:
 
