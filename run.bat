@@ -1,0 +1,1 @@
+java -jar target/vending-api-1.0-SNAPSHOT-exec.jar --spring.config.location=properties/application.yml

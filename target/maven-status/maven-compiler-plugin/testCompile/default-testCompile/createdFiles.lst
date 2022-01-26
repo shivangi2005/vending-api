@@ -1,0 +1,3 @@
+com\oracle\vending\api\service\CalculatorServiceImplTest.class
+com\oracle\vending\api\service\ProductServiceImplTest.class
+com\oracle\vending\api\service\InitialiseMachineImplTest.class

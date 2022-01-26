@@ -1,0 +1,16 @@
+com\oracle\vending\api\service\ProductService.class
+com\oracle\vending\api\service\InitialiseMachine.class
+com\oracle\vending\api\VendingMachine.class
+com\oracle\vending\api\exception\NotEnoughChangeException.class
+com\oracle\vending\api\model\Product.class
+com\oracle\vending\api\model\MachineState.class
+com\oracle\vending\api\service\InitialiseMachineImpl.class
+com\oracle\vending\api\model\Change.class
+com\oracle\vending\api\service\CalculatorServiceImpl.class
+com\oracle\vending\api\service\InputOutputServiceImpl.class
+com\oracle\vending\api\service\ProductServiceImpl.class
+com\oracle\vending\api\service\CalculatorService.class
+com\oracle\vending\api\config\AppConfig.class
+com\oracle\vending\api\config\ApiConfig.class
+com\oracle\vending\api\VendingMachine$1.class
+com\oracle\vending\api\service\InputOutputService.class
